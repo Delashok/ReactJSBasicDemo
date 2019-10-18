@@ -21,6 +21,8 @@ export class Dashboard extends React.Component<any> {
            DASHBOARD    
           </Col>
         </Row>
+        <div></div>
+        
       </React.Fragment>
     );
   }
