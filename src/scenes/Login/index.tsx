@@ -68,11 +68,7 @@ class Login extends React.Component<ILoginProps> {
                                     <FormItem>
                                         {getFieldDecorator('password', { rules: rules.password })(
                                             <Input
-                                                placeholder={'Password'}
-                                                prefix={<Icon type="lock" style={{ color: 'rgba(0,0,0,.25)' }} />}
-                                                type="password"
-                                                size="large"
-                                            />
+                                                placeholder={'Password'} prefix={<Icon type="lock" style={{ color: 'rgba(0,0,0,.25)' }} />} type="password" size="large"/>
                                         )}
                                     </FormItem>
                                     <Row style={{ margin: '0px 0px 10px 15px ' }}>
